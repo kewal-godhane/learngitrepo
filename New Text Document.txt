@@ -1,0 +1,14 @@
+git config --list   ->use to see user detail
+git status  -> to know the current status of folder
+git init  -> make a folder a git repositery
+git add file name with extention  -> to start tracking of that file  (add in staging area)
+git add . -> to be applied on all files
+git commit -m "commit message"  -> use to commit a file (file in the staging area will be commited)
+*after making changes in commit files , they again have to be stagged and commited
+git remote add origin location of repo -> providing github location to local git
+git push -u origin branchName  ->the branch you wanted to push on repo
+git log -> to know the commit history 
+git log --oneline  -> to know the commit history in one line
+git branch branchName hashValue  -> hash value is not required when you are make branch from the last commit(can make branch from any commit)
+git branch  -> to know how many branch are there
+git checkout branchName  -> moving to another branch
